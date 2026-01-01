@@ -10,12 +10,12 @@
 <!-- HEADER -->
 <nav class="navbar navbar-dark bg-success">
   <div class="container">
-    <span class="navbar-brand">Refugio Huellitas</span>
+    <span class="navbar-brand">Refugio Meow</span>
   </div>
 </nav>
 
 <div class="container">
-  <h1>Editar animal 🐾</h1>
+  <h1>Editar animal</h1>
 
   <form id="form-editar" enctype="multipart/form-data">
     <input type="hidden" id="id">
@@ -73,7 +73,7 @@
 const params = new URLSearchParams(window.location.search)
 const id = params.get("id")
 
-// 🔍 traer datos
+// traer datos
 const datos = new FormData()
 datos.append("operacion", "buscarPorId")
 datos.append("id", id)
@@ -98,7 +98,7 @@ fetch("../../app/controllers/AnimalController.php", {
     "../../public/images/" + a.foto
 })
 
-// 💾 actualizar
+// actualizar
 document.querySelector("#form-editar").addEventListener("submit", function(e){
   e.preventDefault()
 

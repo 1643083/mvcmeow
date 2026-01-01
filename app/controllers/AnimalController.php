@@ -11,7 +11,7 @@ if (isset($_POST['operacion'])) {
       echo json_encode($animal->listar());
       break;
 
-    // Registrar animal (con foto)
+    // Registrar
     case 'registrar':
 
       // Nombre del archivo de la foto
@@ -36,7 +36,7 @@ if (isset($_POST['operacion'])) {
       echo json_encode(["id" => $id]);
       break;
 
-    // Actualizar animal
+    // Actualizar
     case 'actualizar':
 
       $nombreFoto = $_POST['foto_actual'];
@@ -62,7 +62,7 @@ if (isset($_POST['operacion'])) {
       ]);
       break;
 
-    // Eliminar animal
+    // Eliminar
     case 'eliminar':
       echo json_encode([
         "filas" => $animal->eliminar($_POST['id'])

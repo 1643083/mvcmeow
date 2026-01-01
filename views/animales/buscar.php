@@ -10,7 +10,7 @@
 <!-- HEADER -->
 <nav class="navbar navbar-dark bg-success">
   <div class="container">
-    <span class="navbar-brand">Refugio Huellitas</span>
+    <span class="navbar-brand">Refugio Meow</span>
   </div>
 </nav>
 
@@ -18,7 +18,7 @@
   <h1>Búsqueda de animales</h1>
 
   <div class="mb-3">
-    <a href="../index.php" class="btn btn-outline-secondary btn-sm">Huellitas</a>
+    <a href="../index.php" class="btn btn-outline-secondary btn-sm">Página principal</a>
     <a href="./listar.php" class="btn btn-outline-primary btn-sm">Listar</a>
     <a href="./crear.php" class="btn btn-outline-success btn-sm">Crear</a>
     <a href="./buscar.php" class="btn btn-outline-info btn-sm">Buscar</a>
