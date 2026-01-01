@@ -10,7 +10,7 @@
 <!-- HEADER -->
 <nav class="navbar navbar-dark bg-success">
   <div class="container">
-    <span class="navbar-brand">Refugio Huellitas</span>
+    <span class="navbar-brand">Refugio Meow</span>
   </div>
 </nav>
 
@@ -20,13 +20,13 @@
   <p class="text-muted">
     Todos nuestros animales están buscando un hogar lleno de amor
   </p>
-    <a href="./animales/listar.php" class="btn btn-outline-primary btn-sm">Listar</a>
+    <a href="./animales/listar.php" class="btn btn-outline-primary btn-sm">Conoce a todos nuestros animalitos</a>
     
 </div>
 
 <!-- LISTADO -->
 <div class="container mt-4">
-  <h3 class="mb-3">Animales disponibles</h3>
+  <h3 class="mb-3">Registrados recientemente</h3>
   <div class="row" id="contenedor-animales"></div>
 </div>
 
